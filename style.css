@@ -8,32 +8,34 @@ body {
 }
 .navbar {
   background-color: #0f1111;
-  height: 70px;
+  height: 60px;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   color: white;
   align-items: center;
 }
+
 .logo {
-  background-image: url("logo.png");
+  background-image: url("Images/logo.png");
   width: 130px;
   height: 39px;
   background-size: cover;
 }
 .addone {
-  margin-left: 22px;
+  margin-left: 16px;
   color: #cccccc;
+  font-size: 0.7rem;
 }
 .addtwo {
   display: flex;
 }
 .addtwo i {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .addtwo p {
   margin-left: 3px;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .searchbox {
   width: 528px;
@@ -72,39 +74,37 @@ body {
   border-bottom-right-radius: 4px;
 }
 .lang p {
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-.sign-in-option {
-  width: 147px;
-  height: 40px;
-}
-.sign-one {
   font-size: 1rem;
 }
+.sign-in-option {
+  width: 10%;
+}
+.sign-one {
+  font-size: 0.8rem;
+}
 .sign-two {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 .return-order {
-  width: 75px;
+  width: 5%;
 }
 .return {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 .order {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 .cart {
   display: flex;
 }
 .cart i {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 .cart p {
   padding-top: 10px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -122,10 +122,10 @@ body {
   margin-left: 10px;
 }
 .all i {
-  font-size: 1.7rem;
+  font-size: 1rem;
 }
 .all p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-left: 10px;
 }
 .grd-sale {
@@ -137,21 +137,21 @@ body {
 }
 .panel-options {
   display: flex;
-  width: 1000px;
+  width: 70%;
   justify-content: space-evenly;
   align-items: center;
 }
 .panel-options p {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .grd-sale p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 .hero-section {
-  background-image: url("backgroundImage.jpg");
+  background-image: url("Images/backgroundImage.jpg");
   background-size: cover;
-  height: 350px;
+  height: 260px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -169,11 +169,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  height: 1670px;
+  height: 1450px;
 }
 .box {
   margin-top: 20px;
-  height: 474px;
+  height: 420px;
   width: 20%;
   padding-left: 20px;
   padding-top: 20px;
@@ -181,12 +181,12 @@ body {
   background-color: white;
 }
 .box p {
-  font-size: 1.65rem;
+  font-size: 1.2rem;
   font-weight: bold;
   height: 75px;
 }
 .deals-image {
-  background-image: url("box8.jpg");
+  background-image: url("Images/box8.jpg");
   background-size: cover;
   height: 70%;
 }
@@ -198,7 +198,7 @@ body {
 .more-offers a {
   text-decoration: none;
   color: #187185;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .back-to-top {
   display: flex;
@@ -209,20 +209,21 @@ body {
   color: white;
 }
 .aboutus {
-  height: 360px;
+  height: 300px;
   color: white;
   display: flex;
   background-color: #232f3e;
   justify-content: space-evenly;
-  align-items: center;
 }
 .parent {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bold;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 .child {
   margin-bottom: 20px;
+  font-size: 0.8rem;
 }
 .copyright {
   background-color: #131a22;
