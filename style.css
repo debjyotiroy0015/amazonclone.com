@@ -17,7 +17,7 @@ body {
 }
 
 .logo {
-  background-image: url("Images/logo.png");
+  background-image: url("logo.png");
   width: 130px;
   height: 39px;
   background-size: cover;
@@ -149,7 +149,7 @@ body {
   font-weight: bold;
 }
 .hero-section {
-  background-image: url("Images/backgroundImage.jpg");
+  background-image: url("backgroundImage.jpg");
   background-size: cover;
   height: 260px;
   display: flex;
@@ -186,7 +186,7 @@ body {
   height: 75px;
 }
 .deals-image {
-  background-image: url("Images/box8.jpg");
+  background-image: url("box8.jpg");
   background-size: cover;
   height: 70%;
 }
